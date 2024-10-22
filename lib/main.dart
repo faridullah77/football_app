@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Text(
             'Welcome to the Football Points Table!',
-            style: TextStyle(fontSize: 24),
+            style: TextStyle(fontSize: 24,
+            fontStyle: FontStyle.italic),
           ),
         ),
       ),
